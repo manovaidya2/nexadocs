@@ -1,0 +1,11 @@
+/* index.css */
+body {
+  margin-top: -20px;
+}
+
+/* index.css */
+@media (max-width: 768px) {
+  #root {
+    margin-top: -20px;
+  }
+}
