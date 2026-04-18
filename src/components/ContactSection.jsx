@@ -37,7 +37,7 @@ export default function ContactSection() {
                 <p className="text-[11px] uppercase tracking-[0.18em] text-[#64748b] mb-1">
                   Phone
                 </p>
-                <p className="text-[16px] text-[#0f172a]">+91 00000 00000</p>
+                <p className="text-[16px] text-[#0f172a]">+91 88602 47763</p>
               </div>
             </div>
 
@@ -61,16 +61,19 @@ export default function ContactSection() {
               <div className="w-8 h-8 rounded-[6px] bg-[#e8eef8] text-[#17345f] flex items-center justify-center shrink-0">
                 <MapPin size={16} strokeWidth={2} />
               </div>
-              <div>
-                <p className="text-[11px] uppercase tracking-[0.18em] text-[#64748b] mb-1">
-                  Office
-                </p>
-                <p className="text-[16px] text-[#0f172a] leading-7">
-                  Nexa Docs Services
-                  <br />
-                  Backend Operations Centre
-                </p>
-              </div>
+            <div>
+  <p className="text-[11px] uppercase tracking-[0.18em] text-[#64748b] mb-1">
+    Office
+  </p>
+
+  <p className="text-[16px] text-[#0f172a] leading-7">
+    Nexa Docs Services,
+   
+    B-62, Basement Amar Colony
+    <br />
+    Delhi - 110025
+  </p>
+</div>
             </div>
           </div>
 
