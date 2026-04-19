@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Phone, Mail, MapPin } from "lucide-react";
 import logo from "../assets/1 (1).png";
 
 export default function Footer() {
@@ -18,7 +19,6 @@ export default function Footer() {
                 alt="Nexa Docs Services Logo"
                 className="h-12 w-auto object-contain"
               />
-             
             </div>
 
             <p className="text-[15px] text-[#64748b] leading-7 max-w-sm">
@@ -46,15 +46,36 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Right */}
+          {/* Right - UPDATED CONTACT */}
           <div>
             <h4 className="text-[16px] font-semibold text-[#0f172a] mb-4">
               Contact
             </h4>
 
-            <div className="text-[15px] text-[#64748b] space-y-2">
-              <p>contact@nexadocsservices.com</p>
-              <p>+91 00000 00000</p>
+            <div className="space-y-4 text-[15px] text-[#64748b]">
+
+              {/* Email */}
+              <div className="flex items-start gap-3">
+                <Mail size={16} className="mt-1 text-[#17345f]" />
+                <p>contact@nexadocsservices.com</p>
+              </div>
+
+              {/* Phone */}
+              <div className="flex items-start gap-3">
+                <Phone size={16} className="mt-1 text-[#17345f]" />
+                <p>+91 88602 47763</p>
+              </div>
+
+              {/* Address */}
+              <div className="flex items-start gap-3">
+                <MapPin size={16} className="mt-1 text-[#17345f]" />
+                <p>
+                  Nexa Docs Services <br />
+                  B-62, Basement Amar Colony <br />
+                  Delhi - 110025
+                </p>
+              </div>
+
             </div>
           </div>
         </div>
